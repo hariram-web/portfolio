@@ -7,7 +7,6 @@ icon.onclick = function () {
     icon.src = "./images/dark theme icon/dark theme icon/moon.png";
   }
 };
-document.querySelector("#menu").addEventListener("click", function(){
-  alert("he");
+document.querySelector("#menu").addEventListener("click", function () {
   document.querySelector(".nav").classList.toggle("show-menu");
-})
+});
